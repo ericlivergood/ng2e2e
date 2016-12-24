@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "noImplicitAny": true,
+    "noFallthroughCasesInSwitch": true,
+    "paths": {
+      "src/*": ["./src/*"],
+      "test/*": ["./test/*"],
+      "@angular/core": ["./node_modules/@angular/core/src/*"]      
+    },
+    "rootDir": ".",
+    "inlineSourceMap": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "target": "es6"
+  },
+  "exclude": [
+      "node_modules",
+      "dist",
+      "pageObjects"
+  ]
+}
